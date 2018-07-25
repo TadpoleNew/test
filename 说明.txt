@@ -1,2 +1,26 @@
 Hello World
 今天开始学习版本控制
+
+
+dir // 查看文件
+dir /a  // 查看所有的文件，包括隐藏文件
+
+==== 本地实施版本控制
+git add 说明.txt    // 希望把说明.txt文件纳入到版本控制
+git status  // 查看一个文件的状态
+git commit -m '新增了说明文件'  // 提交，需要说明理由
+第一次会提示：please tell me who you are.
+
+git config --global user.name "Hao"
+git config --global user.email "jackfrued@126.com"
+git log //查看文件的日志
+
+git add .  // 表示添加所有文件
+
+add只是放在暂存区。还需要提交
+
+get checkout -- 
+
+git reset --hard 版本号前6位  // 回到指定的版本号所处的版本时的状态
+
+git reflog  // 查看历史日志
